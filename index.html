@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>ViajeJá</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#" class="logo">Viaje<span>Já</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#service">Serviços</a></li>
+      <li><a href="#destination">Destinos</a></li>
+      <li><a href="#package">Pacotes</a></li>
+      <li><a href="#client">Clientes</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="header" id="home">
+    <div class="section__container header__container">
+      <h1>VIAJE<br /><span>PELO MUNDO.</span></h1>
+      <p>Viva seus melhores momentos</p>
+      <form action="/">
+        <div class="input__group">
+          <span><i class="ri-map-2-fill"></i></span>
+          <input type="text" placeholder="Qual é o seu destino?" />
+        </div>
+        <div class="input__group">
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          <input type="text" placeholder="Localização" />
+        </div>
+        <div class="input__group">
+          <span><i class="ri-list-ordered-2"></i></span>
+          <input type="text" placeholder="Tipo de serviço" />
+        </div>
+        <div class="input__group">
+          <button class="btn" type="button">Buscar</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <!-- Services section -->
+  <section class="section__container feature__container" id="service">
+    <div class="feature__card">
+      <img src="img/img1.png" alt="feature" />
+      <div>
+        <h4>Melhores Destinos</h4>
+        <p>Descubra os lugares mais impressionantes ao redor do mundo.</p>
+      </div>
+    </div>
+    <div class="feature__card">
+      <img src="img/img2.png" alt="feature" />
+      <div>
+        <h4>Melhor Preço Garantido</h4>
+        <p>Aproveite preços imbatíveis em todas as viagens que você reservar.</p>
+      </div>
+    </div>
+    <div class="feature__card">
+      <img src="img/img3.png" alt="feature" />
+      <div>
+        <h4>Reserva Instantânea</h4>
+        <p>Garanta suas férias dos sonhos com apenas um clique.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations section -->
+  <section class="destination" id="destination">
+    <div class="section__container destination__container">
+      <h2 class="section__header">Destinos Imperdíveis</h2>
+      <p class="section__description">
+        Descubra quais são os melhores destinos
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="./img/destino1.jpeg" alt="destination" />
+          <div class="destination__content">Itália</div>
+        </div>
+        <div class="destination__card">
+          <img src="./img/destino2.jpg" alt="destination" />
+          <div class="destination__content">China</div>
+        </div>
+        <div class="destination__card">
+          <img src="./img/destino3.jpg" alt="destination" />
+          <div class="destination__content">Finlândia</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Discount section -->
+  <section class="discount">
+    <div class="section__container discount__container">
+      <h2>
+        Obtenha até 60% de desconto<br /><span>ao se juntar a nós antes do Verão</span>
+      </h2>
+      <div class="discount__btn">
+        <button class="btn">Junte-se a Nós</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Packages section -->
+  <section class="section__container package__container" id="package">
+    <h2 class="section__header">Pacotes em Destaque</h2>
+    <p class="section__description">
+      Vamos ajudar você a encontrar a viagem perfeita!
+    </p>
+    <!-- Package cards -->
+    <div class="package__grid">
+      <div class="package__card">
+        <img src="./img/destaque1.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Tour pela Cidade do Rio de Janeiro</h4>
+          <p>
+            Mergulhe na rica cultura e nas paisagens deslumbrantes do Rio.
+          </p>
+          <div>
+            <button class="btn">Reserve Agora</button>
+            <h3>R$0</h3>
+          </div>
+        </div>
+      </div>
+      <div class="package__card">
+        <img src="./img/destaque2.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Tour pela Cidade da Tailândia</h4>
+          <p>
+            Explore a vibrante cultura e as paisagens deslumbrantes das cidades movimentadas da Tailândia.
+          </p>
+          <div>
+            <button class="btn">Reserve Agora</button>
+            <h3>R$0</h3>
+          </div>
+        </div>
+      </div>
+      <div class="package__card">
+        <img src="./img/destaque3.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Tour pela Cidade de Londres</h4>
+          <p>
+            Mergulhe na história fascinante, na elegância moderna e na energia única de Londres.
+          </p>
+          <div>
+            <button class="btn">Reserve Agora</button>
+            <h3>R$0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients section -->
+  <section class="section__container client__container" id="client">
+    <h2 class="section__header">Avaliações dos Clientes</h2>
+    <p class="section__description">
+      Temos muitos clientes satisfeitos que reservaram férias conosco
+    </p>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="./img/cliente1.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              O recurso de reserva instantânea é revolucionário. Eu garanti minhas
+              férias dos sonhos em minutos!
+            </p>
+            <h4>Carlos Silva</h4>
+            <h5>Engenheiro de Software</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="./img/cliente2.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              A ViajeJá tornou o planejamento da minha viagem fácil e agradável.
+              No melhor preço!
+            </p>
+            <h4>Ana Costa</h4>
+            <h5>Designer Gráfica</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="./img/cliente3.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              A ViajeJá oferece uma combinação imbatível de ótimos preços e
+              excelente atendimento ao cliente. Super recomendo!
+            </p>
+            <h4>Ricardo Almeida</h4>
+            <h5>Gerente de Projetos</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="./img/cliente4.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Reservar com a ViajeJá foi muito fácil. A interface amigável e a
+              confirmação instantânea economizaram muito do meu tempo.
+            </p>
+            <h4>Mariana Rocha</h4>
+            <h5>Analista de Marketing</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="./img/cliente5.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              Desde a reserva até a viagem, cada passo foi perfeito. A ViajeJá
+              realmente transforma sonhos de viagem em realidade!
+            </p>
+            <h4>Rafael Souza</h4>
+            <h5>Professor</h5>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Subs section -->
+  <section class="subscribe">
+    <div class="section__container subscribe__container">
+      <h2>Inscreva-se para receber Atualizações</h2>
+      <div>
+        <p>Para receber as melhores recomendações, inscreva-se conosco.</p>
+        <form action="/">
+          <input type="text" placeholder="Digite seu e-mail aqui" />
+          <button class="btn">ASSINAR</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#" class="logo">Viaje<span>Já</span></a>
+        </div>
+        <p>
+          Explore os melhores destinos do mundo, aproveite preços imbatíveis e
+          reserve sua escapada perfeita instantaneamente.
+        </p>
+        <h4>Fale Conosco</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-google-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>LINKS RÁPIDOS</h4>
+        <ul class="footer__links">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Depoimentos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>DESTINOS</h4>
+        <ul class="footer__links">
+          <li><a href="#">França</a></li>
+          <li><a href="#">Austrália</a></li>
+          <li><a href="#">Brasil</a></li>
+          <li><a href="#">Japão</a></li>
+          <li><a href="#">Egito</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>ATIVIDADES</h4>
+        <ul class="footer__links">
+          <li><a href="#">Mergulho</a></li>
+          <li><a href="#">Escalada de Pico</a></li>
+          <li><a href="#">Ciclismo</a></li>
+          <li><a href="#">Safari</a></li>
+          <li><a href="#">Tour Cultural</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2025 by Letícia Luna. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
